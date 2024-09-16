@@ -1,7 +1,3 @@
-
-
-
-
 always @(*) begin
     m0_grnt_ = `DISABLE_;
     m1_grnt_ = `DISABLE_;
