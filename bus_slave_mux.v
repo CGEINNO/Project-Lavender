@@ -1,3 +1,39 @@
+input wire [1:0] s0_cs_;
+input wire [29:0] s0_rd_data;
+input wire [1:0] s0_rdy_;
+
+input wire [1:0] s1_cs_;
+input wire [29:0] s1_rd_data;
+input wire [1:0] s1_rdy_;
+
+input wire [1:0] s2_cs_;
+input wire [29:0] s2_rd_data;
+input wire [1:0] s2_rdy_;
+
+input wire [1:0] s3_cs_;
+input wire [29:0] s3_rd_data;
+input wire [1:0] s3_rdy_;
+
+input wire [1:0] s4_cs_;
+input wire [29:0] s4_rd_data;
+input wire [1:0] s4_rdy_;
+
+input wire [1:0] s5_cs_;
+input wire [29:0] s5_rd_data;
+input wire [1:0] s5_rdy_;
+
+input wire [1:0] s6_cs_;
+input wire [29:0] s6_rd_data;
+input wire [1:0] s6_rdy_;
+
+input wire [1:0] s7_cs_;
+input wire [29:0] s7_rd_data;
+input wire [1:0] s7_rdy_;
+
+output reg [29:0] m_rd_data;
+output reg [1:0] m_rdy_;
+
+
 always @(*) begin
 
     if (m0_cs_ == `ENABLE_) begin 

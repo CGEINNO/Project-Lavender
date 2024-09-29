@@ -1,3 +1,15 @@
+input wire [29:0] s_addr;
+output reg [1:0] s0_cs_;
+output reg [1:0] s1_cs_;
+output reg [1:0] s2_cs_;
+output reg [1:0] s3_cs_;
+output reg [1:0] s4_cs_;
+output reg [1:0] s5_cs_;
+output reg [1:0] s6_cs_;
+output reg [1:0] s7_cs_;
+
+
+
 wire [`BusSlaveIndexBus] s_index = s_addr[`BusSlaveIndexLoc];
 
 always @(*) begin
